@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #35a2cd; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transition for link color */
+}
+
+nav ul li a:hover {
+    color: #131305; /* Change color on hover */
+}
+
+.profession-section {
+    max-width:10000%;
+    text-align: left;
+    padding-right:30000 cm;
+    padding-bottom:0cm;
+    width: 390px;
+}
+
+.profession-section h2 {
+    margin-bottom: 20px;
+}
+
+.profession-section h3 {
+    margin-top: 30px;
+}
+
+.profession-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333; /* Dark background */
+    color: white;
+    text-align: center;
+    padding: 23px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
